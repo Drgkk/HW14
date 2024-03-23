@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import AppClasse from './AppClasse';
+import AppQuotes from './AppQuotes';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <>
     <App />
+    <AppClasse></AppClasse>
+    <AppQuotes></AppQuotes>
+    </>
   </React.StrictMode>
 );
 
